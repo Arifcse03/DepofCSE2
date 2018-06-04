@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="demo.javahelps.com.depofcse.Teachers">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:autoLink="phone"
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:divider="?android:dividerHorizontal"
+                android:drawableLeft="@drawable/cse01"
+                android:gravity="right"
+                android:text="@string/mirja"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_below="@id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:autoLink="phone"
+                    android:textColor="@color/white"
+                    android:divider="?android:dividerHorizontal"
+                    android:drawableLeft="@drawable/cse2"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:gravity="right"
+                    android:layout_below="@id/tv1"
+                    android:id="@+id/tv2"
+                    android:text="@string/shahid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_below="@id/tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:autoLink="phone"
+                        android:textColor="@color/white"
+                        android:divider="?android:dividerHorizontal"
+                        android:drawableLeft="@drawable/cse3"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:gravity="right"
+                        android:layout_below="@id/tv2"
+                        android:id="@+id/tv3"
+                        android:text="@string/mamun"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_below="@id/tv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+                            android:autoLink="phone"
+                            android:textColor="@color/white"
+                            android:divider="?android:dividerHorizontal"
+                            android:drawableLeft="@drawable/cse4"
+                            android:layout_margin="10dp"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:gravity="right"
+                            android:layout_below="@id/tv3"
+                            android:id="@+id/tv4"
+                            android:text="@string/golam"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_below="@id/tv4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+
+                            <TextView
+                                android:autoLink="phone"
+                                android:textColor="@color/white"
+                                android:divider="?android:dividerHorizontal"
+                                android:drawableLeft="@drawable/cse5"
+                                android:layout_margin="10dp"
+                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:gravity="right"
+                                android:layout_below="@id/tv4"
+                                android:id="@+id/tv5"
+                                android:text="@string/asma"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_below="@id/tv5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                                <TextView
+                                    android:autoLink="phone"
+                                    android:textColor="@color/white"
+                                    android:divider="?android:dividerHorizontal"
+                                    android:drawableLeft="@drawable/cse7"
+                                    android:layout_margin="10dp"
+                                    android:textStyle="bold"
+                                    android:textSize="15sp"
+                                    android:gravity="right"
+                                    android:layout_below="@id/tv5"
+                                    android:id="@+id/tv6"
+                                    android:text="@string/ananya"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_below="@id/tv6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+
+                                    <TextView
+                                        android:autoLink="phone"
+                                        android:textColor="@color/white"
+                                        android:divider="?android:dividerHorizontal"
+                                        android:drawableLeft="@drawable/cse8"
+                                        android:layout_margin="10dp"
+                                        android:textStyle="bold"
+                                        android:textSize="15sp"
+                                        android:gravity="right"
+                                        android:layout_below="@id/tv6"
+                                        android:id="@+id/tv7"
+                                        android:text="@string/rupok"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content" />
+
+
+
+                                    <LinearLayout
+                                        android:orientation="vertical"
+                                        android:layout_below="@id/tv7"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+
+                                        <TextView
+                                            android:autoLink="phone"
+                                            android:textColor="@color/white"
+                                            android:divider="?android:dividerHorizontal"
+                                            android:drawableLeft="@drawable/cse9"
+                                            android:layout_margin="10dp"
+                                            android:textStyle="bold"
+                                            android:textSize="15sp"
+                                            android:gravity="right"
+                                            android:layout_below="@id/tv7"
+                                            android:id="@+id/tv8"
+                                            android:text="@string/dardina"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content" />
+
+
+                                        <LinearLayout
+                                            android:orientation="vertical"
+                                            android:layout_below="@id/tv8"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content">
+
+
+                                            <TextView
+                                                android:autoLink="phone"
+                                                android:textColor="@color/white"
+                                                android:divider="?android:dividerHorizontal"
+                                                android:drawableLeft="@drawable/cse10"
+                                                android:layout_margin="10dp"
+                                                android:textStyle="bold"
+                                                android:textSize="15sp"
+                                                android:gravity="right"
+                                                android:layout_below="@id/tv8"
+                                                android:id="@+id/tv9"
+                                                android:text="@string/shabbir"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content" />
+
+
+                                            <LinearLayout
+                                                android:orientation="vertical"
+                                                android:layout_below="@id/tv9"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content">
+
+
+                                                <TextView
+                                                    android:autoLink="phone"
+                                                    android:textColor="@color/white"
+                                                    android:divider="?android:dividerHorizontal"
+                                                    android:drawableLeft="@drawable/cse11"
+                                                    android:layout_margin="10dp"
+                                                    android:textStyle="bold"
+                                                    android:textSize="15sp"
+                                                    android:gravity="right"
+                                                    android:layout_below="@id/tv9"
+                                                    android:id="@+id/tv10"
+                                                    android:text="@string/faruk"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content" />
+
+
+                                                <LinearLayout
+                                                    android:orientation="vertical"
+                                                    android:layout_below="@id/tv10"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content">
+
+
+                                                    <TextView
+                                                        android:autoLink="phone"
+                                                        android:textColor="@color/white"
+                                                        android:divider="?android:dividerHorizontal"
+                                                        android:drawableLeft="@drawable/cse12"
+                                                        android:layout_margin="10dp"
+                                                        android:textStyle="bold"
+                                                        android:textSize="15sp"
+                                                        android:gravity="right"
+                                                        android:layout_below="@id/tv10"
+                                                        android:id="@+id/tv11"
+                                                        android:text="@string/aslam"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content" />
+
+
+                                                    <LinearLayout
+                                                        android:orientation="vertical"
+                                                        android:layout_below="@id/tv11"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content">
+
+
+                                                        <TextView
+                                                            android:autoLink="phone"
+                                                            android:textColor="@color/white"
+                                                            android:divider="?android:dividerHorizontal"
+                                                            android:drawableLeft="@drawable/cse13"
+                                                            android:layout_margin="10dp"
+                                                            android:textStyle="bold"
+                                                            android:textSize="15sp"
+                                                            android:gravity="right"
+                                                            android:layout_below="@id/tv11"
+                                                            android:id="@+id/tv12"
+                                                            android:text="@string/sumon"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content" />
+
+                                                        <LinearLayout
+                                                            android:orientation="vertical"
+                                                            android:layout_below="@id/tv12"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content">
+
+
+                                                            <TextView
+                                                                android:autoLink="phone"
+                                                                android:textColor="@color/white"
+                                                                android:divider="?android:dividerHorizontal"
+                                                                android:drawableLeft="@drawable/cse14"
+                                                                android:layout_margin="10dp"
+                                                                android:textStyle="bold"
+                                                                android:textSize="15sp"
+                                                                android:gravity="right"
+                                                                android:layout_below="@id/tv12"
+                                                                android:id="@+id/tv13"
+                                                                android:text="@string/muktahar"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+                                                        </LinearLayout>
+
+
+
+
+
+
+                                                    </LinearLayout>
+
+
+
+
+
+                                                </LinearLayout>
+
+
+
+
+
+                                            </LinearLayout>
+
+
+
+
+
+                                        </LinearLayout>
+
+
+
+
+                                    </LinearLayout>
+
+
+
+
+                                </LinearLayout>
+
+
+
+
+
+
+                            </LinearLayout>
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

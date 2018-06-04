@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:background="@drawable/logo2"
+    tools:context="demo.javahelps.com.depofcse.Menu">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="100dp">
+
+        <Button
+            android:onClick="teacher"
+            android:textColor="@color/white"
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/green"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+
+            android:text="Teacher"
+
+            android:textAlignment="gravity"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn1"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <Button
+                android:onClick="student"
+                android:background="@color/green"
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/btn1"
+                android:layout_gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+
+                android:text="Student"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:textSize="20sp"
+                android:visibility="visible" />
+
+
+            <LinearLayout
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn2"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <Button
+                    android:background="@color/green"
+                    android:id="@+id/btn3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/btn2"
+                    android:layout_gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                     android:onClick="pdf"
+                    android:text="Syllabus"
+                    android:textColor="@color/white"
+                    android:textAlignment="gravity"
+                    android:textSize="20sp"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:paddingTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/btn3"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <Button
+                        android:background="@color/green"
+                        android:id="@+id/btn4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/btn3"
+                        android:layout_gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:onClick="important"
+
+                        android:text="important link"
+                        android:textColor="@color/white"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp"
+                        android:visibility="visible" />
+
+
+                    <LinearLayout
+                        android:paddingTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/btn4"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                        <Button
+                            android:background="@color/green"
+                            android:id="@+id/btn5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_below="@id/btn4"
+                            android:layout_gravity="center"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:onClick="attendance"
+                            android:text="@string/attendance"
+                            android:textColor="@color/white"
+                            android:textAlignment="gravity"
+                            android:textSize="20sp"
+                            android:visibility="visible" />
+
+                        <LinearLayout
+                            android:paddingTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/btn5"
+                            android:orientation="vertical"
+                            android:visibility="visible">
+
+                            <Button
+                                android:background="@color/green"
+                                android:id="@+id/btn6"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_below="@id/btn4"
+                                android:layout_gravity="center"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+                                android:onClick="about"
+                                android:text="About"
+                                android:textColor="@color/white"
+                                android:textAlignment="gravity"
+                                android:textSize="20sp"
+                                android:visibility="visible" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

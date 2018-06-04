@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    android:orientation="horizontal"
+    tools:context="demo.javahelps.com.depofcse.Attendance">
+
+
+
+<TableLayout
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*">
+
+    <Button
+        android:background="@color/green"
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:onClick="setDate"
+        android:text="@string/date_button_set" />
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textView3"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:background="#3CBC8D"
+        android:gravity="center"
+        android:text="@string/date_selected"
+        android:textAlignment="center"
+        android:textColor="@color/primeBlack"
+        android:textSize="20sp" />
+
+
+
+
+
+    <TableRow
+        android:layout_width="371dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/text5"
+            android:text="Shafat Hossain"
+            android:textAlignment="center"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+            android:id="@+id/text6"
+            android:text="16104001"
+            android:textAlignment="center"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/ra1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/present" />
+
+
+            <RadioButton
+                android:id="@+id/ra2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Absent" />
+
+
+
+            <RadioButton
+
+                android:id="@+id/ra3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/late" />
+        </RadioGroup>
+    </TableRow>
+
+
+    <TableRow>
+
+
+
+        <TextView
+            android:id="@+id/text9"
+            android:textAlignment="center"
+
+            android:text="Ikhtiar Ahmed"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+            android:id="@+id/text10"
+            android:textAlignment="center"
+
+            android:text="16104003"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <RadioButton
+                android:text="@string/present"
+                android:id="@+id/ra4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <RadioButton
+                android:text="@string/Absent"
+                android:id="@+id/ra5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <RadioButton
+                android:text="@string/late"
+                android:id="@+id/ra6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+    </TableRow>
+
+    <TableRow>
+
+
+
+        <TextView
+            android:id="@+id/text11"
+            android:textAlignment="center"
+
+            android:text="Mahbuba AKhter"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+            android:id="@+id/text12"
+            android:textAlignment="center"
+
+            android:text="16104005"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <RadioButton
+                android:text="@string/present"
+                android:id="@+id/ra7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <RadioButton
+                android:text="@string/Absent"
+                android:id="@+id/ra8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <RadioButton
+                android:text="@string/late"
+                android:id="@+id/ra9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+
+
+    </TableRow>
+    <TableRow>
+
+
+
+        <TextView
+            android:id="@+id/text13"
+            android:textAlignment="center"
+
+            android:text="Md. Anik Islam"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+            android:id="@+id/text14"
+            android:textAlignment="center"
+
+            android:text="16104007"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <RadioButton
+                android:text="@string/present"
+                android:id="@+id/ra10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <RadioButton
+                android:text="@string/Absent"
+                android:id="@+id/ra11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <RadioButton
+                android:text="@string/late"
+                android:id="@+id/ra12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+
+
+    </TableRow>
+    <TableRow>
+
+
+
+        <TextView
+            android:id="@+id/text15"
+            android:textAlignment="center"
+
+            android:text="Nawrin Ahasan"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+            android:id="@+id/text16"
+            android:textAlignment="center"
+
+            android:text="16104013"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <RadioButton
+
+                android:text="@string/present"
+
+                android:id="@+id/ra13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <RadioButton
+                android:text="@string/Absent"
+                android:id="@+id/ra14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <RadioButton
+                android:text="@string/late"
+                android:id="@+id/ra16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+    </TableRow>
+
+    <TableRow>
+
+
+        <TextView
+            android:id="@+id/text17"
+            android:textAlignment="center"
+
+            android:text="Rajorshi "
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+            android:id="@+id/text18"
+            android:textAlignment="center"
+
+            android:text="16104017"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <RadioButton
+                android:text="@string/present"
+                android:id="@+id/ra17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <RadioButton
+                android:text="@string/Absent"
+                android:id="@+id/ra18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <RadioButton
+                android:text="@string/late"
+                android:id="@+id/ra19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/text19"
+            android:textAlignment="center"
+
+            android:text="Sabatina"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+
+            android:id="@+id/text20"
+            android:textAlignment="center"
+
+            android:text="16104019"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <RadioButton
+                android:text="@string/present"
+                android:id="@+id/ra21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <RadioButton
+                android:text="@string/Absent"
+                android:id="@+id/ra22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <RadioButton
+                android:text="@string/late"
+                android:id="@+id/ra23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/text21"
+            android:textAlignment="center"
+
+            android:text="Md.asif Iqbal"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+
+            android:id="@+id/text22"
+            android:textAlignment="center"
+
+            android:text="16104021"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <RadioButton
+                android:text="@string/present"
+                android:id="@+id/ra24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <RadioButton
+                android:text="@string/Absent"
+                android:id="@+id/ra25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <RadioButton
+                android:text="@string/late"
+                android:id="@+id/ra26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/text23"
+            android:textAlignment="center"
+
+            android:text="Arif"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+
+            android:id="@+id/text24"
+            android:textAlignment="center"
+
+            android:text="16104023"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <RadioButton
+                android:text="@string/present"
+                android:id="@+id/ra27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <RadioButton
+                android:text="@string/Absent"
+                android:id="@+id/ra28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <RadioButton
+                android:text="@string/late"
+                android:id="@+id/ra29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/text25"
+            android:textAlignment="center"
+
+            android:text="Shakil"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+
+            android:id="@+id/text26"
+            android:textAlignment="center"
+
+            android:text="16104025"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <RadioButton
+                android:text="@string/present"
+                android:id="@+id/ra30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <RadioButton
+                android:text="@string/Absent"
+                android:id="@+id/ra31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <RadioButton
+                android:text="@string/late"
+                android:id="@+id/ra32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/text27"
+            android:textAlignment="center"
+
+            android:text="Arobi"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+
+            android:id="@+id/text28"
+            android:textAlignment="center"
+
+            android:text="16104029"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <RadioButton
+                android:text="@string/present"
+                android:id="@+id/ra33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <RadioButton
+                android:text="@string/Absent"
+                android:id="@+id/ra34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <RadioButton
+                android:text="@string/late"
+                android:id="@+id/ra35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text29"
+            android:textAlignment="center"
+
+            android:text="Oishi"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+
+            android:id="@+id/text30"
+            android:textAlignment="center"
+
+            android:text="16104031"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <RadioButton
+                android:text="@string/present"
+                android:id="@+id/ra36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <RadioButton
+                android:text="@string/Absent"
+                android:id="@+id/ra37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <RadioButton
+                android:text="@string/late"
+                android:id="@+id/ra38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text31"
+            android:textAlignment="center"
+
+            android:text="Ratul Roy"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+
+            android:id="@+id/text32"
+            android:textAlignment="center"
+
+            android:text="16104035"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <RadioButton
+                android:text="@string/present"
+                android:id="@+id/ra40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <RadioButton
+                android:text="@string/Absent"
+                android:id="@+id/ra41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <RadioButton
+                android:text="@string/late"
+                android:id="@+id/ra42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text33"
+            android:textAlignment="center"
+
+            android:text="Amit Das"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+
+            android:id="@+id/text34"
+            android:textAlignment="center"
+
+            android:text="16104037"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <RadioButton
+                android:text="@string/present"
+                android:id="@+id/ra43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <RadioButton
+                android:text="@string/Absent"
+                android:id="@+id/ra44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <RadioButton
+                android:text="@string/late"
+                android:id="@+id/ra45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text35"
+            android:textAlignment="center"
+
+            android:text="MAhbuba"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+
+            android:id="@+id/text36"
+            android:textAlignment="center"
+
+            android:text="16104043"
+            android:textColor="@color/primeBlack"
+            android:textSize="15sp"
+
+            />
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <RadioButton
+                android:text="@string/present"
+                android:id="@+id/ra46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <RadioButton
+                android:text="@string/Absent"
+                android:id="@+id/ra47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <RadioButton
+                android:text="@string/late"
+                android:id="@+id/ra48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+
+
+    </TableRow>
+
+<TableRow>
+
+    <Button
+        android:onClick="submit"
+        android:text="SUBMIT"
+        android:textColor="@color/white"
+        android:background="@color/green"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        />
+
+
+
+</TableRow>
+
+
+</TableLayout>
+
+
+
+</ScrollView>
+

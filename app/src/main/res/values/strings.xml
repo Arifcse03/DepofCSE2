@@ -1,0 +1,72 @@
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="date_label_set">Press the button to set the date</string>
+    <string name="date_button_set">Set Date</string>
+    <string name="date_view_set">The Date is: </string>
+    <string name="date_selected"></string>
+    <string name="DATE">SELECT DATE</string>
+    <string name="ID">ID</string>
+    <string name="NAme">NAME</string>
+
+    <string name="present">P</string>
+
+    <string name="Absent">A</string>
+    <string name="late">L</string>
+    <string name="A">A</string>
+
+    <string name="P">P</string>
+
+    <string name="L">L</string>
+
+
+    <string name="app_name">Dep of CSE</string>
+    <string name="home_page">WELCOME TO THE DEPARTMENT OF CSE</string>
+    <string name="bauet">BAUET</string>
+    <string name="muktahar">"Md. Muktar Hossain\nLecturer, CSE\nNaogan, Bangladesh\nMob:+8801737868015"</string>
+    <string name="sumon">"Md.Sumon Mia\nLecturer, ICE\nChuadanga\nEmail: summon.ruetbd@gmail.com\nMob:+8801708507434"</string>
+    <string name="aslam">"Md. Almash Alam\nLecturer, CSE\nNatore, Bangladesh\nEmail: almash.anik.61@gmail.com\nMOb: +880172356739"</string>
+    <string name="faruk">"Md.Omar Faruq\nlecturer, CSE\nRajshahi, Bangladesh\nEmail: md.o.f@yahoo.com\nMob: +8801753126846"</string>
+    <string name="shabbir">"Md.Sabbir Ejaz\nLecturer, Dept. of CSE\nChuadanga, Bangladesh\nEmail: cse.sabbir7@gmail.com\nMob:+8801725990631"</string>
+    <string name="dardina">"Dardina Tasmere\nLecturer, Dept. of CSE\nDinajpur, Bangladesh\nEmail:titly_tonu@yahoo.com\nMOB:+8801750735548"</string>
+    <string name="rupok">"Nareet Islam\nLecturer, Dept. of CSE\nNatore, Bangladesh\nEmail: rupak@gmail.com"</string>
+    <string name="ananya">"Ananya sarkar\nlecturer,CSE\nNatore,Bangladesh\nEmail: ananya.ruet@gmail.com\nMob: +8801739166530"</string>
+    <string name="asma">"Must.Asma Yasmin\nAssistant Professor,CSE\nHobiganj,Bangladesh\nEmail: asma.yasmin.cu@gmail.com\nMob:+8801716336153"</string>
+    <string name="mamun">"Dr.Md.Al Mamun\nProfessor,CSE\nRajshahi,Bangladesh\nEmail: cse_mamun@yahoo.com"</string>
+    <string name="golam">"Mohammed Golam Sarwar Bhuyan\nAssociate Professor,CSE\nChandpur,Bangladesh\nEmail: csesarwar@gmail.com"</string>
+    <string name="shahid">"Prof. Dr.Md. Shahid Uz Zaman\n Professor, CSE  \nRajshahi, Bangladesh\n Email: szaman22@yahoo.com"</string>
+    <string name="mirja">"Dr. Mirza A.F.M. Rashidul Hasan\nAssociate Professor and Head, CSE \n Rajshahi, Bangladesh  \nEmail: mirza_iu@yahoo.com\nmob:+8801715249842</string>
+
+    <string name="selectdate">"SELECT DATE"</string>
+    <string name="date">"DATE"</string>
+    <string name="forcoding">"FOR CODING..."</string>
+
+    <string name="forcoding1"><a href="https://www.codechef.com/">CodeChef</a>\n<a href="https://www.hackerearth.com">Hackerearth</a>\n<a href="https://www.hackerrank.com">HackerRank</a>\n<a href="http://codeforces.com">Codeforces</a>\n<a href="https://www.topcoder.com">TopCoder</a>\n<a href="https://coderbyte.com">Coderbyte</a>\n<a href="https://www.urionlinejudge.com.br">Uri</a></string>
+
+    <string name="Forlearning">"FOR LEARNING..."</string>
+    <string name="forlearning1"><a href="https://www.codecademy.com">Codecademy</a>\n<a href="https://www.geeksforgeeks.org">Geeksforgeeks</a>\n<a href="https://www.codeschool.com">Code School</a>\n<a href="https://teamtreehouse.com">Treehouse</a></string>
+    <string name="SomeBanglaSite">"SOME BANGLA WEBSITE..."</string>
+    <string name="SomeBanglaSite1"><a href="http://www.shafaetsplanet.com">Safayet er blog</a>\n<a href="https://hellohasan.com">Hasan er raf khata</a>\n<a href="http://zakilive.com">Syed Ahmed Zaki</a></string>
+
+    <string name="VideoTutorial">"VIDEO TUTORIAL"</string>
+    <string name="attendance">"Attendance"</string>
+
+    <string name="VideoTutorial1"><a href="https://www.youtube.com/channel/UCN_pqF_Y6IObpxapaQPHWZg/featured">
+Bangladesh Advanced Computing Society - BACS</a>\n\n<a href="https://www.youtube.com/channel/UCs6nmQViDpUw0nuIx9c_WvA">
+ProgrammingKnowledge</a>\n<a href="https://www.youtube.com/channel/UC4a-Gbdw7vOaccHmFo40b9g">
+Khan Academy</a>\n<a href="https://www.youtube.com/channel/UCltVEZ6GecWntoZ19FvaWhQ">
+Ekeeda</a>\n\n<a href="https://www.youtube.com/channel/UCMrXkqBzR71QsTxuwIJalGg/playlists">
+SayefReyadh - Programming Made Simple</a>\n\n<a href="https://www.youtube.com/channel/UClEEsT7DkdVO_fkrBw0OTrA">
+mycodeschool</a>\n<a href="https://www.youtube.com/channel/UCNzo21QIvEWkB2UIXdRBL6A">easytuts4you</a>\n<a href="https://www.youtube.com/channel/UCvxAt_WebjZ_-pMsxpraROg">
+LearningLad</a></string>
+
+
+    <string name="about">"NAME: MD ARIFUL ISLAM\nDEP OF CSE\nBAUET\n3rd BATCH\nEmail: arifcse03@gmail.com"</string>
+
+
+    <string name="seca1">"\nMahbuba Akter\n16104005\namahbuba9@gmail.com\nB+\n\nRajorshi Bhattacharya\n16104017\n+8801756019060\nrajandro4@gmail.com\nO+\n\nMost.Sabatina Alam Zimi\n16104019\nsaba19.alam@gmail.com\nB+\n\nAsif Iqbal\n16104021\n+8801942131039\naftushar@gmail.com\nAB+\n\nMd Ariful islam\n16104023\n+8801753403590\narifcse03@gmail.com\nB-\n\nS M Shakil Ahmed\n16104025\n+8801677153967\nshakil619619@gmail.com\nO+\n\nNusrat khan oishi \n16104031\nnusratkhan054@gmail.com\nO+\n\nAmit kumar das\n16104037\naamit924@yahoo.com\nA+\n\n\Mahabuba Yesmin \n16104043\nMitemahabuba@gmail.com\nAB+"</string>
+    <string name="seca2">"\n\nIstiaqe Ahmed\n16104045\nshaikat.ah1@gmail.com\nA+\n\nMd. Razib Hossain\n16104047\n+8801705960339\nrazib3bauet@gmail.com\nA+\n\nmd. Mehedi hasan\n16104051\n+8801744319808\nmehedibball@gmail.com \nA+\n\nJinia Nasren\n16104055\njinia55310@gmail.com\nB+\n\nAkhlima Yeasmin\n16104057\nakhlimayeasmin.cse@gmail.com\nB+\n\nChadmi Saum\n16104059\nchadmisaum@gmail.com\nA+\n\nMarufar Oshan\n16104067\n+8801796294871\nAB+\n\nTousik Monir\n16104077\ntousikmonir12345@gmail.com\no+\n\nNiloy Sarker\n16104083\n+8801709038401\nnspiyas2015@gmail.com\nA+\n\nK.M.Muhibuzzaman\n16104085\n+8801790891098\nmuhib.kagozi@gmail.com\nO+\n\nRifat Asraf\n16104087\n+8801775114562\nrifarasraf123@gmail.com\nB+
+\n\nMD.Mobid Hossain Khan\n16104089\n+8801744724877\nrockmobid@gmail.com\nA+\n\nTanzidul karim\n16104093\n+8801770455846\nakash001karim@gmail.com\nO+\n\nFaisal kabir \n16104097\n+8801883723775\nfaisalshuvobauet16@gmail.com\nAB+\n"</string>
+    <string name="secb">"Md. Zahid Hasan\n16104002\n+8801736676622\nzh36730@gmail.com\nB+\n\nAhsan Habib \n16104006 \n+8801521415552 \nshehanuk.ah@gmail.com \na+\nAntarip Saha\n6104010\n+8801713702979\nantarip15@gmail.com\nAB+\n\nMd.Rakibul islam rashik\n16104018\n+8801785484168\nrakibulrashik@gmail.com\nB+\n\nMd. Shahadat Hossain. \n16104020\n+8801773961500\nshahadatshishir02@gmail.com \nO(+ve)\n\nAbdul Kader\n16104026\n+8801791454252\na.k.shimul.cse@gmail.com\nB+\n\nMd. Nur-A-Alam Khan\n16104032\n+8801738115440\nnur.murad32@gmail.com\nA+\n\nRabbi Ahmed \n16104038\n+8801795721081\nrabbi202@outlook.com\nA+\n\nMd.Abu Sayed Molla\n16104056 \n+8801742969746\nmolla96sayed@gmail.com\nA+\n\nName: Jim Al Sadik\n16104058\n+8801521300210\njimalsadik@gmail.com\nO+\n\nBibek kumar\n16104062\n+8801774418272\nbibekcse62@gmail. Com\nO+\n\nEnam Ahmed Suhash\n16104064\n+8801738737901\nEasuhash@yahoo.com\nB+\n\nDewan Hazrat Talha\n16104066\n+8801755454764\nhazrattalha66@gmail.com\nO+\n\nMd. Nahidul islam\n16104068 \n+8801724683459\nnahidulislambejoy@gmail.com\nA+\n\nMd. Inzamam-Ul Haque\n16104074\n+8801776644244\ninzamm74@gmai.com\nO+\n\nMd. Ferdous Al Murad Shuvo\n16104076\n+8801723907758\nFerdousalmurad@gmail.com\nO+\n\nMd. Shahriare Arnob\n16104084\n+8801773943894\njsa.cse03b@gmail.com\nB+\n\nTohidur Rahman\n16104086\na785360@gmail.com\n+8801744990471\nAB+ \n\nRangan Mohanta Dibosh \n16104090\n+8801728327656\ndiboshhh@outlook.com\nO+\n\nMD: Zobaeir Al Nahid\n16104092\n+8801762258297\nLikhon.cse.92@gmail.com\nA+\n\nGolam Mahiuddin Khan Ta-seen \n16104096\n+8801795641258\ncu.taseen@gmail.com \nB+\n\nMD.Robiul Islam Palash\n16104100\n+8801755455606\npalash.bauet@gmail.com\nAB+\n\nMd.Naimur Rahman\n16104102\n+8801711146262\nnaimurrahman6262@gmail.com\nB+\n"</string>
+</resources>
